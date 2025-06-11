@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Jost", sans-serif;
+  box-sizing: border-box;
+}
+.main-wrapper {
+  border: 3px solid red;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+}
+.box-one,
+.box-two,
+.box-three {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #f0f0f0; */
+  border: 2px solid #ccc;
+  background-color: blue;
+}
+.box-one h1,
+.box-two h1,
+.box-three h1 {
+  color: tomato;
+}
