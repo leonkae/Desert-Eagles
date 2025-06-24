@@ -59,4 +59,19 @@ document.getElementById("ageForm").addEventListener("submit", function (e) {
   const age = parseInt(document.getElementById("age").value);
   console.log(`Age entered: ${age}`);
   ticketChecker(age);
+  
 });
+
+
+// function processByType ({ type, ...args }) {
+//   switch (type) {
+//     case CONST_VALUE_A:
+//       return processArgsA(args)
+//     case CONST_VALUE_B:
+//       return processArgsB(args)
+//     case CONST_VALUE_C:
+//       return processArgsC(args)
+//     default:
+//       throw new Error(`unknown type ${type}`)
+//   }
+// }
